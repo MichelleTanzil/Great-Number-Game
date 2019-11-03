@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div#container{
+  margin: 100px auto; 
+  width: 700px; 
+}
+
+div#container>*{
+  margin-top: 20px; 
+  text-align: center;
+}
+
+input[type='text']{
+  display: block; 
+  width: 100px; 
+  padding-top: 5px; 
+  margin: 5px auto; 
+}
+input[type="submit"]{
+  padding: 5px;
+}
+
+div.results{
+  width: 250px;
+  height: 250px;
+  display: none;
+  border: 3px solid #242424;
+  margin: 0 auto; 
+}
+
+div.results h2{
+  margin: 111px auto;
+  color: white;
+}
